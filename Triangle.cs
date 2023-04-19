@@ -22,5 +22,14 @@ namespace GeometryClasses
             _sideB = sideB;
             _sideC = sideC;
         }
+        public override double GetArea()
+        {
+            return (_base * _height) / 2;
+        }
+
+        public override double GetPerimeter()
+        {
+            return _sideA + _sideB + _sideC;
+        }
     }
 }
