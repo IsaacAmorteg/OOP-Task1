@@ -7,22 +7,23 @@ using System.Threading.Tasks;
 
 namespace GeometryClasses
 {
-    class Square : Shape
+    public class Square : Shape
     {
-        private double _sideLenght;
+        private double _sideLength;
 
-        public Square(double sideLenght) 
+        public Square(double sideLength) 
         {
-            _sideLenght = sideLenght;
+            _sideLength = sideLength;
         }
+
         public override double GetArea()
         {
-            return _sideLenght * _sideLenght;
+            return _sideLength * _sideLength;
         }
 
         public override double GetPerimeter()
         {
-            return 4 * _sideLenght;
+            return 4 * _sideLength;
         }
     }
 }
