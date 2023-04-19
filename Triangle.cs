@@ -14,9 +14,9 @@ namespace GeometryClasses
         private double _sideB;
         private double _sideC;
 
-        public Triangle(double trianlgeBase, double height, double sideA, double sideB, double sideC)
+        public Triangle(double triangleBase, double height, double sideA, double sideB, double sideC)
         {
-            _base = trianlgeBase;
+            _base = triangleBase;
             _height = height;
             _sideA = sideA;
             _sideB = sideB;
