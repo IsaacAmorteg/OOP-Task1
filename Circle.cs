@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GeometryClasses
 {
-    class Circle : Shape
+    public class Circle : Shape
     {
         private double _radius;
 

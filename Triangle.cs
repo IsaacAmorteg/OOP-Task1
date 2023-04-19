@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GeometryClasses
 {
-    class Triangle : Shape
+    public class Triangle : Shape
     {
         private double _base;
         private double _height;
